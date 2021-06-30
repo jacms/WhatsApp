@@ -1,0 +1,49 @@
+//colores
+$color-black:#000;
+$color-white:#fff;
+$color-container: #054d44;
+$color-title_bar: #075e54;
+$color-green:#06d755;
+$color-gray-2:rgba(165, 165, 165, 0.2);
+$color-gray-8:rgba(165, 165, 165, 0.8);
+//genericos
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-image: url(../content/images/backgroundpage.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+//font
+@font-face {
+    font-family: Helvetica Neue Light;
+    src: url(/content/fonts/HelveticaNeueCyr-Light.ttf);
+}
+
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(/content/fonts/HelveticaNeueCyr-Roman.ttf);
+}
+
+@font-face {
+    font-family: Helvetica Neue Medium;
+    src: url(/content/fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+@font-face {
+    font-family: Helvetica Neue Bold;
+    src: url(/content/fonts/HelveticaNeueCyr-Bold.ttf);
+}
