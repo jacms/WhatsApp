@@ -1,0 +1,40 @@
+.container {
+    .search_bar {
+        width: 100%;
+        position: absolute;
+        height: 60px;
+        box-shadow: -1px -10px 12px #101010;
+        border: none;
+        font-family: 'Helvetica Neue Light';
+        font-size: 24px;
+        color: #101010;
+        text-decoration: underline;
+        padding: 0px 10px 0px 70px;
+        background-image: url(../images/icons/back.png);
+        background-position: 0px 0px;
+        background-size: 55px 55px;
+        background-repeat: no-repeat;
+        display: none;
+        opacity: 0;
+    }
+
+
+    textarea:focus,
+    input:focus {
+        outline-offset: none;
+    }
+
+    .back_trigger {
+        width: 34px;
+        height: 39px;
+        // border: 1px solid red;
+        // background-color: transparent;
+        // display: none;
+        position: absolute;
+        left: 10px;
+        top: 9px;
+        cursor: pointer;
+        z-index: 999;
+
+    }
+}

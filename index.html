@@ -6,17 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="content/style.css">
+    <link rel="stylesheet" href="content/style/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js" integrity="sha512-/ncZdOhQm5pgj5KHy720Ck7XF5RzYK6rtUsLNnGcitXrKT3wUYzTrPlOSG7SdL2kDzkuLEOFvrQRyllcZkeAlg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dragscroll/0.0.8/dragscroll.min.js"
+        integrity="sha512-/ncZdOhQm5pgj5KHy720Ck7XF5RzYK6rtUsLNnGcitXrKT3wUYzTrPlOSG7SdL2kDzkuLEOFvrQRyllcZkeAlg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="/content/js/home.js"></script>
+    <script src="/content/js/scroll.js"></script>
+    <script src="/content/js/profile.js"></script>
+    <script src="/content/js/search.js"></script>
+    <script src="/content/js/menu.js"></script>
+    <script src="/content/js/app.js"></script>
     <title>WhatsApp</title>
 </head>
 
 <body>
     <div class="container">
+
+        <!-- menu -->
+        <div class="dropdown_menu">
+            <p class="dropdown_item">New group</p>
+            <p class="dropdown_item">New brodcast</p>
+            <p class="dropdown_item">WhatsApp Web</p>
+            <p class="dropdown_item">Starred messages</p>
+            <p class="dropdown_item">Settings</p>
+        </div>
+
+        <!-- search -->
+        <div class="back_trigger">
+        </div>
+        <input type="text" class="search_bar">
 
         <div class="profile">
             <div class="profile_container">
@@ -26,7 +47,16 @@
                 </div>
                 <div class="profile_controls">
                     <div class="one_control">
-                        <!-- <img src="/content/images/chat/chat.PNG" alt=""> -->
+                        <img src="/content/images/icons/chat.png" alt="">
+                    </div>
+                    <div class="one_control">
+                        <img src="/content/images/icons/phone.png" alt="">
+                    </div>
+                    <div class="one_control">
+                        <img src="/content/images/icons/video.png" alt="">
+                    </div>
+                    <div class="one_control">
+                        <img src="/content/images/icons/info.png" alt="">
                     </div>
                 </div>
             </div>
@@ -58,13 +88,26 @@
         <div class="message_section dragscroll">
             <div class="single_chat">
                 <div class="image_container">
+                    <img src="/content/images/chat/irma.jpg" alt="">
+                </div>
+                <div class="content_container">
+                    <div class="content_container_inner">
+                        <p class="user_name">
+                            <name>Irma</name> <span>08:45 PM</span>
+                            <p class="chat_content">https://vm.tiktok.com/ZMdmuYDx2/...<span>9</span></p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single_chat">
+                <div class="image_container">
                     <img src="/content/images/chat/chat5.jpg" alt="">
                 </div>
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name">
-                            <name>ioni</name> <span>11:45 AM</span>
-                            <p class="chat_content">vamos al buqui o que...<span>3</span></p>
+                            <name>Ioni</name> <span>02:15 PM</span>
+                            <p class="chat_content">fui por camaroncitos vas a querer<span>2</span></p>
                         </p>
                     </div>
                 </div>
@@ -76,8 +119,8 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>marco</name> <span class="read">11:45 AM</span>
-                            <p class="chat_content">ey contesta... </p>
+                            <name>Rene</name> <span class="read">11:45 AM</span>
+                            <p class="chat_content">un dotita o khe <span>1</span></p>
                         </p>
                     </div>
                 </div>
@@ -89,7 +132,59 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Coreano</name> <span class="read">yesterday</span>
+                            <p class="chat_content">yo tengo un compa</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single_chat ">
+                <div class="image_container">
+                    <img src="/content/images/chat/chat4.jfif" alt="">
+                </div>
+                <div class="content_container">
+                    <div class="content_container_inner">
+                        <p class="user_name ">
+                            <name>Rodo</name> <span class="read">yesterday</span>
+                            <p class="chat_content">Hay que darle al warzone</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single_chat ">
+                <div class="image_container">
+                    <img src="/content/images/chat/chat4.jfif" alt="">
+                </div>
+                <div class="content_container">
+                    <div class="content_container_inner">
+                        <p class="user_name ">
+                            <name>Kasho</name> <span class="read">yesterday</span>
+                            <p class="chat_content">caile a la carnita asada we</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single_chat ">
+                <div class="image_container">
+                    <img src="/content/images/chat/chat4.jfif" alt="">
+                </div>
+                <div class="content_container">
+                    <div class="content_container_inner">
+                        <p class="user_name ">
+                            <name>EDCV</name> <span class="read">yesterday</span>
+                            <p class="chat_content">https://cod.tracker.gg/warzone/profile/battlenet...</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="single_chat ">
+                <div class="image_container">
+                    <img src="/content/images/chat/chat4.jfif" alt="">
+                </div>
+                <div class="content_container">
+                    <div class="content_container_inner">
+                        <p class="user_name ">
+                            <name>Usuario 1</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -102,7 +197,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 2</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -115,7 +210,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 3</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -128,7 +223,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 4</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -141,7 +236,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 5</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -154,7 +249,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 6</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>
@@ -167,59 +262,7 @@
                 <div class="content_container">
                     <div class="content_container_inner">
                         <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
-                            <p class="chat_content">yo tengo un compa...</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="single_chat ">
-                <div class="image_container">
-                    <img src="/content/images/chat/chat4.jfif" alt="">
-                </div>
-                <div class="content_container">
-                    <div class="content_container_inner">
-                        <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
-                            <p class="chat_content">yo tengo un compa...</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="single_chat ">
-                <div class="image_container">
-                    <img src="/content/images/chat/chat4.jfif" alt="">
-                </div>
-                <div class="content_container">
-                    <div class="content_container_inner">
-                        <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
-                            <p class="chat_content">yo tengo un compa...</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="single_chat ">
-                <div class="image_container">
-                    <img src="/content/images/chat/chat4.jfif" alt="">
-                </div>
-                <div class="content_container">
-                    <div class="content_container_inner">
-                        <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
-                            <p class="chat_content">yo tengo un compa...</p>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="single_chat ">
-                <div class="image_container">
-                    <img src="/content/images/chat/chat4.jfif" alt="">
-                </div>
-                <div class="content_container">
-                    <div class="content_container_inner">
-                        <p class="user_name ">
-                            <name>coreano</name> <span class="read">yesterday</span>
+                            <name>Usuario 7</name> <span class="read">yesterday</span>
                             <p class="chat_content">yo tengo un compa...</p>
                         </p>
                     </div>

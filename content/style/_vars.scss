@@ -5,7 +5,10 @@ $color-container: #054d44;
 $color-title_bar: #075e54;
 $color-green:#06d755;
 $color-gray-2:rgba(165, 165, 165, 0.2);
+$color-gray-5:rgba(165, 165, 165, 0.8);
 $color-gray-8:rgba(165, 165, 165, 0.8);
+$color-overaly:rgba(16, 16, 16, 0.6);
+
 //genericos
 * {
     margin: 0;
@@ -21,7 +24,7 @@ $color-gray-8:rgba(165, 165, 165, 0.8);
 }
 
 body {
-    background-image: url(../content/images/backgroundpage.jpeg);
+    background-image: url(/content/images/backgroundpage.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
