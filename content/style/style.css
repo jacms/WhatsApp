@@ -11,7 +11,7 @@
 }
 
 body {
-  background-image: url(/content/images/backgroundpage.jpeg);
+  background-image: url("https://jacms.github.io/WhatsApp/content/images/backgroundpage.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,22 +19,22 @@ body {
 
 @font-face {
   font-family: Helvetica Neue Light;
-  src: url(/content/fonts/HelveticaNeueCyr-Light.ttf);
+  src: url(https://jacms.github.io/WhatsApp/content/fonts/HelveticaNeueCyr-Light.ttf);
 }
 
 @font-face {
   font-family: Helvetica Neue;
-  src: url(/content/fonts/HelveticaNeueCyr-Roman.ttf);
+  src: url(https://jacms.github.io/WhatsApp/content/fonts/HelveticaNeueCyr-Roman.ttf);
 }
 
 @font-face {
   font-family: Helvetica Neue Medium;
-  src: url(/content/fonts/HelveticaNeueCyr-Medium.ttf);
+  src: url(https://jacms.github.io/WhatsApp/content/fonts/HelveticaNeueCyr-Medium.ttf);
 }
 
 @font-face {
   font-family: Helvetica Neue Bold;
-  src: url(/content/fonts/HelveticaNeueCyr-Bold.ttf);
+  src: url(https://jacms.github.io/WhatsApp/content/fonts/HelveticaNeueCyr-Bold.ttf);
 }
 
 .container {
@@ -353,7 +353,7 @@ body {
   color: #101010;
   text-decoration: underline;
   padding: 0px 10px 0px 70px;
-  background-image: url(../images/icons/back.png);
+  background-image: url(https://jacms.github.io/WhatsApp/content/images/icons/back.png);
   background-position: 0px 0px;
   background-size: 55px 55px;
   background-repeat: no-repeat;
